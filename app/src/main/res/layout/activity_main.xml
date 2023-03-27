@@ -20,7 +20,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Street"
+            android:text="@string/jalan"
             android:textColor="#ffffff"
             android:padding="10dp"/>
         <EditText
@@ -33,7 +33,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Zip Code"
+            android:text="@string/kodepos"
             android:textColor="#ffffff"
             android:padding="1dp"/>
         <EditText
@@ -46,7 +46,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Country"
+            android:text="@string/negara"
             android:textColor="#ffffff"
             android:padding="10dp"/>
         <Spinner
@@ -62,14 +62,29 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="User"
+            android:text="@string/pemakai"
             android:textColor="#ffffff"/>
     </TableRow>
     <TableRow>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Name"
+            android:text="@string/nama"
+            android:textColor="#ffffff"
+            android:padding="10dp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:inputType="textCapCharacters"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/telp"
             android:textColor="#ffffff"
             android:padding="10dp"/>
         <EditText
@@ -79,11 +94,12 @@
             android:background="@android:drawable/dialog_holo_light_frame"
             android:inputType="phone"/>
     </TableRow>
+
     <TableRow>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Password"
+            android:text="@string/sandi"
             android:textColor="#ffffff"
             android:padding="10dp"/>
         <EditText
@@ -97,7 +113,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Birth Date"
+            android:text="@string/tglLahir"
             android:textColor="#ffffff"
             android:padding="10dp"/>
         <EditText
@@ -111,16 +127,14 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Reset"
+            android:text="@string/ulang"
             android:layout_weight="1"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Save"
+            android:text="@string/simpan"
             android:layout_weight="1"/>
     </TableRow>
-
-
 
 </TableLayout>
